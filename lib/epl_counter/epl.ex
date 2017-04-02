@@ -15,14 +15,7 @@ defmodule EPLCounter.EPL do
   end
 
   def init(_) do
-    menu_item = """
-    <li class=\"glyphicons share_alt\">
-      <a href=\"/epl_counter/index.html\"><i></i>
-        <span>Trace events counter</span></a>
-    </li>
-    """
-    author = "Erlang Lab"
-    {:ok, [{:menu_item, menu_item}, {:author, author}]}
+    {:ok, []}
   end
 
   ## :cowboy_websocket_handler callbacks

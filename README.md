@@ -17,12 +17,11 @@ $ cd epl_counter
 $ mix compile
 ```
 
-Then you need to clone and compile [`erlangpl`](https://github.com/erlanglab/erlangpl)
-with experimental Elixir support:
+Then you need to clone and compile [`erlangpl`](https://github.com/erlanglab/erlangpl),
+prebuilt packages doesn't have Elixir support yet:
 ```shell
 $ git clone https://github.com/erlanglab/erlangpl.git
 $ cd erlangpl
-$ git checkout elixir-integration
 $ make rebar
 $ make
 $ ./bootstrap --with-elixir <path to your local Elixir installation>
